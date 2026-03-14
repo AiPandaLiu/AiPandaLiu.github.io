@@ -1,7 +1,7 @@
 baseURL = "https://chayliu91.github.io/"
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
-title = 'Chay'
+title = 'Panda'
 theme = "hugo-PaperMod"
 
 hasCJKLanguage = true

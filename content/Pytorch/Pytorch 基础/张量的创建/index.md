@@ -120,4 +120,3 @@ t4 = torch.Tensor(9.0)  # TypeError: new(): data must be a sequence (got float)
 
 但在现代 PyTorch 开发规范中，推荐使用 `torch.tensor()` 创建张量，原因只有一个：类型推断的确定性。
 
-$$ a = \frac{b}{c} $$
