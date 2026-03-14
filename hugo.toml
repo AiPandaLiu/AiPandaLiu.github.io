@@ -10,6 +10,7 @@ enableInlineShortcodes = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+
 # 👇 导航菜单配置
 [[menu.main]]
   name = "🏠 首页"
@@ -82,9 +83,18 @@ enableInlineShortcodes = true
 
 
 [markup]
+  # 1. 目录配置
+  [markup.tableOfContents]
+    startLevel = 1   # 从一级标题 (#) 开始显示
+    endLevel = 4     # 显示到四级标题 (####)
+    ordered = false
+
+  # 2. Markdown 渲染配置
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true
+      unsafe = true  # 允许 HTML 标签
+
+  # 3. 代码高亮配置
   [markup.highlight]
     style = "abap"       # 代码高亮风格
     lineNos = true       # 显示行号
