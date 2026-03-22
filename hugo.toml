@@ -1,7 +1,7 @@
 baseURL = "https://AiPandaLiu.github.io/"
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
-title = 'Chay'
+title = 'Panda'
 theme = "hugo-PaperMod"
 
 hasCJKLanguage = true
@@ -47,7 +47,7 @@ enableInlineShortcodes = true
 
 [params]
   env = "production"
-  title = "Chay 的博客"
+  title = "Panda 的博客"
   description = ""
   defaultTheme = "auto"
   DateFormat = "2006年1月2日"
